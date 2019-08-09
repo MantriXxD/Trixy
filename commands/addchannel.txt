@@ -1,0 +1,12 @@
+module.exports = {
+    name: 'addchannel',
+    description: 'Creates a channel',
+    aliases: ['createchannel', 'newchannel'],
+    cooldown: 5,
+    guildOnly: true,
+    execute(message, args) {
+
+        message.guild.createChannel(name, "test")
+
+    },
+};
