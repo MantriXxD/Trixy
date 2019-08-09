@@ -1,0 +1,2 @@
+0.0.1 >> Implemented welcome message.
+0.0.2 >> Embed welcome message.
